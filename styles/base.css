@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+.markdown-body li {
+    word-break: break-all;
+    /* Replace overflow-wrap: break-all; with the line above */
+}
+
+.markdown-body pre code,
+.markdown-body pre tt {
+    max-width: 100%;
+    /* Replace max-width: auto; with the line above, or remove it if not needed */
+}
+header {
+    background-color: #1a4a73;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+}
+
+h1 {
+    margin: 0;
+    font-size: 1.5rem;
+}
+
+nav {
+    background-color: #333;
+    display: flex;
+    justify-content: space-around;
+    padding: 0.5rem;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 0.5rem;
+}
+
+nav a:hover {
+    background-color: #555;
+}
+
+main {
+    max-width: 1200px;
+    margin: 1rem auto;
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+}
+
+.card {
+    background-color: white;
+    border-radius: 5px;
+    padding: 1rem;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.card img {
+    max-width: 100%;
+    height: auto;
+}
+
+.flag {
+    width: 100px;
+    height: auto;
+}
+.flag h2 {
+    text-align: center;
+}
+footer {
+    background-color: #1a4a73;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    margin-top: 1rem;
+}
+
+@media (max-width: 768px) {
+    main {
+        grid-template-columns: 1fr;
+    }
+}
