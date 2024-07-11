@@ -1,0 +1,36 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+h1 {
+    color: #333;
+}
+
+input, button {
+    padding: 10px;
+    margin: 5px 0;
+    font-size: 16px;
+}
+
+#chapterList {
+    list-style-type: none;
+    padding: 0;
+}
+
+#chapterList li {
+    margin: 10px 0;
+    padding: 10px;
+    background: #f4f4f4;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#chapterList li button {
+    background: rgb(231, 227, 227);
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+}
