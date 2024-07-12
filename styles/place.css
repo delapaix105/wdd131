@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
 /* Global Styles */
 :root {
     --primary-color: #040404;
@@ -63,7 +64,7 @@ footer {
     padding: 1rem;
     margin-top: 1rem;
     position: absolute;
-    bottom: 10;
+    bottom: 10px;
     width: 100%;
 }
 /* Gallery Styles */
