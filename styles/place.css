@@ -1,0 +1,91 @@
+/* Global Styles */
+:root {
+    --primary-color: #040404;
+    --secondary-color: #4682B4;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: var(--primary-color);
+    background-color: #f0f0f0;
+}
+
+/* Header and Navigation */
+header {
+    background-color: rgb(114, 127, 244);
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+    background-color: var(--secondary-color);
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+/* Main Content */
+main {
+    padding: 1em;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.hero img {
+    width: 1200px;
+    height: auto;
+}
+
+.info, .weather, .gallery {
+    margin: 2em 0;
+}
+
+.weather-icon::after {
+    content: "⛅";
+}
+footer {
+    background-color: #1a4a73;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    margin-top: 1rem;
+    position: absolute;
+    bottom: 10;
+    width: 100%;
+}
+/* Gallery Styles */
+.gallery {
+    
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.gallery img {
+    width: calc(33.33% - 10px); /* Three images per row with a gap */
+    height: auto;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+/* Media Queries */
+@media (max-width: 799px) {
+    .hero img {
+        height: auto;
+    }
+}
+
+@media (min-width: 800px) {
+    .hero img {
+        height: 400px;
+    }
+}

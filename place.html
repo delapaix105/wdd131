@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Visit Rwanda</title>
+    <meta name="description" content="">
+    <meta name="author" content="Fidele De la paix UKWITEGETSE">
+    <link rel="stylesheet" href="styles/place.css">
+</head>
+<body>
+    <header>
+        <h1>Explore Rwanda</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#info">Information</a></li>
+            <li><a href="#weather">Weather</a></li>
+            <li><a href="#gallery">Gallery</a></li>
+        </ul>
+    </nav>
+    <main>
+        <section class="hero">
+            <picture>
+                <source srcset="images/rwanda-large.webp" media="(min-width: 800px)">
+                <source srcset="images/rwanda-medium.webp" media="(min-width: 500px)">
+                <img src="images/rwanda-small.webp" alt="Beautiful view of Japan" weight="100">
+            </picture>
+        </section>
+        <section id="info" class="info">
+            <h2>Information About Rwanda</h2>
+            <p>Rwanda, officially the Republic of Rwanda, is a landlocked country in the Great Rift Valley of Central Africa, where the African Great Lakes region and Southeast Africa converge. Located a few degrees south of the Equator, Rwanda is bordered by Uganda, Tanzania, Burundi, and the Democratic Republic of the Congo.</p>
+        </section>
+        <section id="weather" class="weather">
+            <h2>Weather <span class="weather-icon"></span></h2>
+            <p>Temperature: <span id="temperature">5°C</span></p>
+            <p>Wind Speed: <span id="wind-speed">10 km/h</span></p>
+            <p>Wind Chill: <span id="wind-chill">Calculating...</span></p>
+        </section>
+        <section id="gallery" class="gallery">
+            <h2>Gallery</h2>
+            <p> These are one of the best major touristic attraction site in Rwanda, one can wish and dream to visit.</p>
+            <!-- Add images or other content here -->
+            <img src="images/rwanda-large.webp" alt="Beautiful view of Rwanda" title="">
+            <img src="images/rwanda-medium.webp" alt="Beautiful view of Rwanda">
+            <img src="images/Flag_of_Rwanda.svg" alt="Beautiful view of Rwanda" title="Flag of Rwanda">
+            <img src="images/gorilla.jpeg" alt="Beautiful view of Rwanda" title="Mountain gorillas found only in Rwanda and it's neighbouring countries">
+            <img src="images/akagera.jpeg" alt="Beautiful view of Rwanda">
+            <img src="images/waterfall.jpeg" alt="Beautiful view of Rwanda">
+        </section>
+    </main>
+    <footer>
+        <p>&copy; Fidele De la paix UKWITEGETSE<span id="current-year"></span></p>
+        <p>Last modified: <span id="last-modified"></span></p>
+    </footer>
+    <script src="scripts/place.js" defer></script>
+</body>
+</html>
