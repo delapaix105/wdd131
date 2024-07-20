@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Temple Album</title>
+    <meta name="description" content="WDD 131 - Dynamic Web Fundamentals, Fidele De la paix UKWITEGETSE, Temple Album page">
+    <meta name="author" content="Fidele De la paix UKWITEGETSE">
+    <link rel="stylesheet" href="styles/filtered-temples.css">
+   
+</head>
+<body>
+    <header>
+        <div class="header-content">
+            <h1>Temple Album</h1>
+            <nav>
+                <ul>
+                    <li><a href="#" onclick="filterTemples('all')">Home</a></li>
+                    <li><a href="#" onclick="filterTemples('old')">Old</a></li>
+                    <li><a href="#" onclick="filterTemples('new')">New</a></li>
+                    <li><a href="#" onclick="filterTemples('large')">Large</a></li>
+                    <li><a href="#" onclick="filterTemples('small')">Small</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main id="temple-container">
+        <!-- Temple cards will be dynamically generated here -->  
+    </main>
+    <footer>
+        <p>&copy;<span id="currentyear"></span> 🌺 Fidele De la paix UKWITEGETSE 🌺 Rwanda</p>
+        <p id="lastModified"></p>
+    </footer>
+    <script src="scripts/filtered-temples.js" defer></script>
+</body>
+</html>
