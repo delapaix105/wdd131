@@ -48,9 +48,7 @@ nav ul li a {
     color: white;
     text-decoration: none;
 }
-nav a:hover {
-    background-color: #555;
-}
+
 
 #hamburger {
     background: none;
