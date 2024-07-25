@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shop | Ubuntu Shop</title>
+    <meta name="description" content="WDD 131 - Dynamic Web Fundamentals, Fidele De la paix UKWITEGETSE, Personal shopping page and web development resources">
+    <meta name="author" content="Fidele De la paix UKWITEGETSE">
+    <link rel="stylesheet" href="styles/styles.css">
+    <!-- Add any additional meta tags or links to fonts/icons if needed -->
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <header>
+        <div class="logo">UBUNTU SHOP</div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="shop.html">Shop</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+         <section class="shop">
+        <h2>Shop Our Collection</h2>
+        <div class="filter-bar">
+            <input type="text" id="search" placeholder="Search products...">
+            <select id="category-filter">
+                <option value="all">All Categories</option>
+                <option value="clothing">Clothing</option>
+                <option value="accessories">Accessories</option>
+            </select>
+        </div>
+        <div class="product-grid" id="product-grid">
+            <!-- Products will be loaded here dynamically -->
+            <!-- Example of a product item -->
+            <div class="product-item">
+                <img src="images/sunglasses.jpeg" alt="Sunglasses" loading="lazy">
+                <h3>Sunglasses</h3>
+                <p>Price: $29.99</p>
+                <button>Add to Cart</button>
+            </div>
+            <!-- More product items -->
+        </div>
+            <div class="cart-preview" id="cart-preview">
+                <!-- Cart preview will be shown here -->
+                <!-- Example of a cart item -->
+                <div class="cart-item">
+                    <p>Sunglass</p>
+                    <p>Quantity: 1</p>
+                    <p>Total: $29.99</p>
+                </div>
+                <!-- More cart items -->
+            </div>
+
+            <!--   -->
+            <div class="product-grid" id="product-grid">
+                <!-- Products will be loaded here dynamically -->
+                <!-- Example of a product item -->
+                <div class="product-item">
+                    <img src="images/boot.jpeg" alt="boot" loading="lazy">
+                    <h3>boot</h3>
+                    <p>Price: $89.99</p>
+                    <button>Add to Cart</button>
+                </div>
+                <!-- More product items -->
+            </div>
+                <div class="cart-preview" id="cart-preview">
+                    <!-- Cart preview will be shown here -->
+                    <!-- Example of a cart item -->
+                    <div class="cart-item">
+                        <p>Sunglass</p>
+                        <p>Quantity: 1</p>
+                        <p>Total: $89.99</p>
+                    </div>
+                    <!-- More cart items -->
+                </div>
+       
+        </section>
+        
+    </main>
+    <footer>
+        <p>&copy; 2024 Ubuntu Shop. All rights reserved.</p>
+        <p><a href="attributions.html">Attributions</a></p>
+        <div class="social-media">
+            <a href="#">Facebook</a>
+            <a href="#">Instagram</a>
+            <a href="#">Twitter</a>
+        </div>
+    </footer>
+    <script src="scripts/scripts.js" defer></script>
+</body>
+</html>

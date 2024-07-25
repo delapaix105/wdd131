@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ubuntu Shop</title>
+    <meta name="description" content="WDD 131 - Dynamic Web Fundamentals, Fidele De la paix UKWITEGETSE, Shop homepage and web development resources">
+    <meta name="author" content="Fidele De la paix UKWITEGETSE">
+    <link rel="stylesheet" href="styles/styles.css">
+</head>
+<body>
+    <header>
+        <div class="logo">UBUNTU SHOP</div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="shop.html">Shop</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="hero">
+            <h1>Welcome to UBUNTU SHOP</h1>
+            <p>Your one-stop shop for the latest fashion trends</p>
+            <button onclick="window.location.href='shop.html'">Shop Now</button>
+        </section>
+        <section class="featured-products">
+            <h2>Featured Products</h2>
+            <div class="product-grid" id="featured-products">
+                <!-- Featured products will be loaded here dynamically -->
+            </div>
+        </section>
+        <section class="about-us">
+            <h2>About Us</h2>
+            <p>UBUNTU SHOP is dedicated to bringing you the latest in fashion trends. Our curated collection ensures you look your best for any occasion.</p>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Ubuntu Shop. All rights reserved.</p>
+        <p><a href="attributions.html">Attributions</a></p>
+        <div class="social-media">
+            <a href="#">Facebook</a>
+            <a href="#">Instagram</a>
+            <a href="#">Twitter</a>
+        </div>
+    </footer>
+    <script src="scripts/scripts.js" defer></script>
+</body>
+</html>
